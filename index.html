@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>typing</title>
+	<link rel="stylesheet" href="index.css">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+	<div class="jumbotron text-center">
+		<div class="first">
+			<h1>Test Your Typing Speed</h1>
+			<p id="p1">This is a Typing test.Your goal is to duplicate the provided text,EXACTLY,<br>in the field below.The timer starts when you start typing,and only stops<br> when you match this text exactly.Good luck!</p>
+			<div id="cl2">
+			<textarea class="form-control" rows="3" cols="60" id="txt1" readonly="" placeholder="Checks the text"></textarea>
+			</div>
+			<div id="cl">
+				<textarea class="form-control" onkeyup ="check();timer()" rows="7" cols="40" id="txt2" placeholder="Type the text here!!"></textarea>
+				<p id="p2"></p>
+				<p id="p3"></p>
+				<p id="p4"></p>
+			</div>
+		</div>
+
+		<div class="second">
+			<p id="p5"></p>
+		</div>
+	</div>
+	<script type="text/javascript" src="index.js"></script>
+</body>
+</html>
