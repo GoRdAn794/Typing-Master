@@ -68,3 +68,10 @@ h2
 	font-size: 20px;
 	color: red;
 }
+.second
+{
+	position: absolute;
+	margin-left: 50%;
+	margin-top:20%;
+	display:none;
+}

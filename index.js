@@ -48,6 +48,7 @@ else if(str1.length == str2.length){
 	document.getElementById('cl').innerHTML = '';
 	document.getElementById('cl2').innerHTML='';
 	document.getElementById().innerHTML="TIME CONSUMED :"+time;
+	document.querySelector('.second').style.display='block';
 	document.getElementById('p5').innerHTML=wpm;
 	// document.getElementById().innerHTML="WPM :"
 	clearInterval(interv);
