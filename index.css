@@ -47,6 +47,7 @@ h1
 #txt2
 {
 	font-size: 20px;
+	padding: 1%;
 
 }
 h2
@@ -57,16 +58,20 @@ h2
 {
 	color: black;
 	font-size: 20px;
+	font-size: 25px;
 }
 #p4
 {
-	font-size: 20px;
-	color: red;
+	font-size: 25px;
+	color: #C70039;
 }
 #p5
 {
-	font-size: 20px;
-	color: red;
+	font-size: 45px;
+	padding-top: 13%;
+	padding-left: 40%;
+	font-family: 'Nerko One', cursive;
+	color: #196564;
 }
 .second
 {
@@ -75,3 +80,11 @@ h2
 	margin-top:20%;
 	display:none;
 }
+#p6
+{
+	padding-left: 35%;
+	font-family: 'Nerko One', cursive;
+	color: #194765;
+	font-size: 40px;
+}
+	

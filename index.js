@@ -45,13 +45,16 @@ if(str1[Length]!=str2[Length]){
 // console.log(str2);
 else if(str1.length == str2.length){
 	// console.log('clear')
+	clearInterval(interv);
 	document.getElementById('cl').innerHTML = '';
 	document.getElementById('cl2').innerHTML='';
-	document.getElementById().innerHTML="TIME CONSUMED :"+time;
 	document.querySelector('.second').style.display='block';
-	document.getElementById('p5').innerHTML=wpm;
+	document.getElementById('p5').innerHTML="YOUR SPEED IS :"+wpm;
+	document.getElementById('p6').innerHTML="TIME CONSUMED :"+time;
+
 	// document.getElementById().innerHTML="WPM :"
-	clearInterval(interv);
+	
+
 
 }
 
