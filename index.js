@@ -43,7 +43,7 @@ if(str1[Length]!=str2[Length]){
 	document.getElementById("p4").innerHTML="CURRENT ERRORS : "+count1;
 }
 // console.log(str2);
-else if(str1.length == str2.length){
+else if(str1.length == str2.length && str1==str2){
 	// console.log('clear')
 	clearInterval(interv);
 	document.getElementById('cl').innerHTML = '';
